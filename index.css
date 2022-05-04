@@ -18,9 +18,11 @@ body{
     border-right: 1px solid #ddd;
 }
 .profile {
+    cursor: pointer;
     display: flex;
     align-items: center;
     padding: 20px;
+
 }
 .profile img {
     width: 59px;
@@ -82,6 +84,7 @@ body{
 .primary_storage{
     background-color: #1b27af;
 }
+
 /* .layout_container__body {
     display: flex;
     flex-direction: column;
@@ -178,9 +181,22 @@ body{
     width: 100%;
     height: 350px;
     margin-top: -20%;
-    border: px solid black;
     display: flex;
     align-items: center;
+}
+.btn_employees{
+    padding: 5px 25px;
+    box-shadow: .5px .5px 3px rgba(0,28,105,.050980392156862744);
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+    transition: all .2s linear;
+}
+.btn_employer{
+    padding: 5px 25px;
+    box-shadow: .5px .5px 3px rgba(0,28,105,.050980392156862744);
+    border-radius: 8px 0px 0px 8px;
+    cursor: pointer;
+    transition: all .2s linear;
 }
 .staff_container_header .button_container{
     height: 15.5%;   
@@ -347,6 +363,7 @@ body{
     position: absolute;
     left: 1px;
     right: 30px;
+    margin-left: -10px;
 }
 .calendar{
     color: #001440;
@@ -368,6 +385,7 @@ body{
     position: absolute;
     right: 90px;
     top: 20px;
+    left: 160px;
 }
 .right_indicator2{
     width: 24px;
@@ -509,9 +527,126 @@ span{
 .holding_things6{
     border: px solid black;
     display: flex;
-    margin-top: 260px;
+    margin-top: 265px;
     box-shadow: 0 2px 2px rgba(53,101,211,.1607843137254902);
     border-radius: 8px;
     margin-left: 40px;
     width: 70%;
+}
+.student_rate{
+    border: px solid black;
+    width: 77%;
+    margin-left: 5px;
+    font-size: 32px;
+    margin: 20px 0px;
+    position: absolute;
+    top: 350%;
+}
+.report_container_wrap{
+    position: fixed;
+    width: 60%;
+    padding: 20px 20px 20px 40px;
+}
+.date{
+    align-items: center;
+    margin: auto 0 auto 0;
+    display: flex;
+}
+.text_from{
+    font-family: poppins;
+    font-weight: 600;
+    color: #1b27af;
+    font-size: 14px;
+}
+.date_calendar{
+    position: absolute;
+    top: 400%;
+    left: 35%;
+    margin-left: 20px;
+    border: px solid black;
+}
+.date_calendar_to{
+    position: absolute;
+    top: 400%;
+    left: 65%;
+    border: px solid black;
+    font-family: "poppins";
+}
+.select_date{
+    padding: 10px 15px;
+    margin: 0 10px;
+    border: 1px solid rgba(0,116,137,.12156862745098039);
+    border-radius: 8px;
+}
+input{
+    color: #8692a6;
+    outline: none;
+}
+table{
+    border: px solid black;
+    position: absolute;
+    top: 200px;
+    width: 90%;
+    height: 65vh;
+    margin-top: 20px;
+    color: #1b27af;
+}
+table th {
+    text-align: left;
+    border-right: 3px solid #fff;
+}
+table td {
+    text-align: left;
+    border-right: 3px solid #fff;
+}
+th{
+    font-family: 600;
+    color: #1b27af;
+    background-color: rgba(57,70,189,.058823529411764705);
+}
+.img_table{
+    vertical-align: middle;
+    margin-right: 10px;
+}
+.date_joined{
+    font-family: "poppins";
+    font-size: 14px;
+    color: #77838f;
+}
+.service_fee{
+    font-weight: 700;
+}
+.get_paid{
+    font-weight: 700;
+}
+.right_side_body_card_report{
+    border: 1px solid rgba(53, 101, 211, .1607843137254902);
+    position: absolute;
+    top: 500px;
+    box-shadow: 0 2px 2px rgba(0, 116, 137, 0.50980392156862744);
+    left: 25px;
+    width: 80%;
+    border-radius: 8px;
+}
+.calendar_reports{
+    color: #001440;
+    font-size: 20px;
+    position: absolute;
+    top: 130px;
+    font-weight: bold;   
+}
+.right_indicator_reports{
+    width: 24px;
+    position: absolute;
+    right: 90px;
+    top: 150px;
+    left: 160px;
+}
+.left_indicator_reports{
+    width: 24px;
+    position: absolute;
+    left: 1px;
+    right: 30px;
+    top: 150px;
+    margin-left: -10px;
 }
